@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="img/coffee-icon.png" />
+    <title>Gerador Tabuada</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tabuada</h1>
+    </header>
+
+    <section>
+      <div id="texts" onclick="click()">
+        <input type="text" name="txtnum" id="txtnum" />
+        <input
+          type="button"
+          value="Gerar Tabuada"
+          onclick="calcular()"
+          id="btn"
+        />
+        <button id="reload" onclick="reset()">Reload</button>
+      </div>
+      <select name="tabuada" id="tab" size="10"></select>
+    </section>
+
+    <footer>&copy André Silveira</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
